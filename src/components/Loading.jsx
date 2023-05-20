@@ -2,7 +2,7 @@ import React from "react"
 
 const Loading = () => {
 	return (
-		<div className='grid grid-flow-row-dense grid-cols-3 p-12 gap-8'>
+		<div className='grid grid-flow-row-dense grid-cols-3 p-12 gap-8 max-md:grid-cols-2  max-sm:grid-cols-1'>
 			{Array(6)
 				.fill(1)
 				.map((el, index) => (
